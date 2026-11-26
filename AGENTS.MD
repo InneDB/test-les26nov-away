@@ -1,5 +1,7 @@
 ## Git commit messages
 
+- important: don't commit before I review 
+
 - use Convential commits
 - keep commit messages consine and meaningful
 - begin with feature, fix, docs, style
