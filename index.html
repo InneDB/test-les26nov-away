@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Three.js Green Cube</title>
+    <title>Van Driving Scene</title>
     <style>
       * {
         box-sizing: border-box;
@@ -24,9 +24,23 @@
       canvas {
         display: block;
       }
+
+      .controls-hint {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        margin: 0;
+        padding: 0.65rem 0.9rem;
+        border-radius: 0.5rem;
+        color: #0f172a;
+        background: rgb(255 255 255 / 85%);
+        font: 14px/1.5 system-ui, sans-serif;
+        pointer-events: none;
+      }
     </style>
   </head>
   <body>
+    <p class="controls-hint">Besturing: Z/S vooruit en achteruit, Q/D sturen — of gebruik de pijltjestoetsen.</p>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
